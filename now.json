@@ -3,14 +3,14 @@
   "name": "wuuro-back",
   "builds": [
     {
-      "src": "dist/main.js",
+      "src": "dist/bin/www.js",
       "use": "@now/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "dist/main.js"
+      "dest": "dist/bin/www.js"
     }
   ]
 }
